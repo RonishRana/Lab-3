@@ -1,0 +1,16 @@
+
+.container {
+  margin: 3rem auto;
+  max-width: 75rem;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+.header-container {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+body
+{
+  background-color: #000000;
+}
