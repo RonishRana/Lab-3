@@ -9,12 +9,12 @@
 }
 
 .card {
-    width: 100%; /* Cards will take full width of their container */
+    width: 100%; 
     box-sizing: border-box;
-    background-color: #f9f9f9; /* Background color for cards */
-    border-radius: 25px; /* Rounded corners for cards */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
-    overflow: hidden; /* Hide overflowing content */
+    background-color: #f9f9f9; 
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
 }
 
 .card img {
@@ -23,28 +23,28 @@
 }
 
 .card-content {
-    padding: 20px; /* Padding for card content */
+    padding: 20px; 
 }
 
-/* CSS for Tablet view */
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .card-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards in a row for tablet */
+        grid-template-columns: repeat(2, 1fr); 
     }
     .card:nth-last-child(1) {
-        grid-column: span 2; /* Last card takes full width */
+        grid-column: span 2; 
     }
 }
 
-/* CSS for Desktop view */
+
 @media only screen and (min-width: 1200px) {
     .card:last-child {
-        grid-column: span 3; /* Last card takes full width */
+        grid-column: span 3;
     }
 }
-/* CSS for Mobile view */
+
 @media only screen and (max-width: 767px) {
     .card-container {
-        grid-template-columns: 1fr; /* 1 card in a row for mobile */
+        grid-template-columns: 1fr; 
     }
 }
